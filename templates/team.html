@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Team</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='team.css') }}"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">🌿KrishiBot</div>
+        <ul class="nav-links">
+          <li><a href="{{ url_for('index') }}">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#upload-section">Upload</a></li>
+          <li><a href="#">Team</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="team-section">
+      <h1>Meet the Team</h1>
+      <div class="team-grid">
+        <!-- 1st row -->
+        <div class="team-card">
+          <img src="https://via.placeholder.com/150" alt="" />
+          <p><b>Shrivardhan Sharma</b><br />22BEC10011</p>
+        </div>
+        <div class="team-card">
+          <img src="https://via.placeholder.com/150" alt="" />
+          <p><b>Manas Maheshwari</b><br />22BCE10492</p>
+        </div>
+        <div class="team-card">
+          <img src="https://via.placeholder.com/150" alt="" />
+          <p><b>Swapnil Vadlamani</b><br />22BCY10125</p>
+        </div>
+        <div class="team-card">
+          <img src="https://via.placeholder.com/150" alt="" />
+          <p><b>Tushita Gakkhar</b><br />22MIP10032</p>
+        </div>
+
+        <!-- 2nd row -->
+        <div class="team-card">
+          <img src="https://via.placeholder.com/150" alt="" />
+          <p><b>Priyanshu Kumar Singh</b><br />22BEC10006</p>
+        </div>
+        <div class="team-card">
+          <img src="https://via.placeholder.com/150" alt="" />
+          <p><b>Harsh Rai</b><br />22BCE11429</p>
+        </div>
+        <div class="team-card">
+          <img src="https://via.placeholder.com/150" alt="" />
+          <p><b>Aman Singh</b><br />22BEC10010</p>
+        </div>
+        <div class="team-card">
+          <img src="https://via.placeholder.com/150" alt="" />
+          <p><b>Sourojeet Ganguly</b><br />22BSA10270</p>
+        </div>
+
+        <!-- 3rd row (only 1) -->
+        <div class="team-card single-center">
+          <img src="https://via.placeholder.com/150" alt="" />
+          <p><b>Mridul Vaishnav</b><br />22BCE11642</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

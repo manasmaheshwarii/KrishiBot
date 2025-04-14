@@ -1,0 +1,117 @@
+{
+  "Apple___Apple_scab": {
+    "plant": "Apple",
+    "disease": "Apple Scab",
+    "solution": "Remove and destroy infected leaves. Apply fungicides like mancozeb or captan during early spring."
+  },
+  "Apple___Black_rot": {
+    "plant": "Apple",
+    "disease": "Black Rot",
+    "solution": "Prune and destroy infected branches. Use fungicides containing thiophanate-methyl or myclobutanil."
+  },
+  "Apple___Cedar_apple_rust": {
+    "plant": "Apple",
+    "disease": "Cedar Apple Rust",
+    "solution": "Remove nearby cedar trees if possible. Use fungicides like chlorothalonil or myclobutanil during early growth."
+  },
+  "Apple___healthy": {
+    "plant": "Apple",
+    "disease": "Healthy",
+    "solution": "No action needed. Keep monitoring regularly."
+  },
+  "Background_without_leaves": {
+    "plant": "N/A",
+    "disease": "N/A",
+    "solution": "No plant leaf detected. Please upload a valid leaf image."
+  },
+  "Blueberry___healthy": {
+    "plant": "Blueberry",
+    "disease": "Healthy",
+    "solution": "No action needed. Your plant is in good health!"
+  },
+  "Cherry___healthy": {
+    "plant": "Cherry",
+    "disease": "Healthy",
+    "solution": "No action needed. Keep an eye on the plant regularly."
+  },
+  "Cherry___Powdery_mildew": {
+    "plant": "Cherry",
+    "disease": "Powdery Mildew",
+    "solution": "Apply sulfur or potassium bicarbonate sprays. Improve air circulation and avoid overhead watering."
+  },
+  "Corn___Cercospora_leaf_spot Gray_leaf_spot": {
+    "plant": "Corn",
+    "disease": "Gray Leaf Spot (Cercospora)",
+    "solution": "Rotate crops and use resistant hybrids. Apply fungicides like azoxystrobin if necessary."
+  },
+  "Corn___Common_rust": {
+    "plant": "Corn",
+    "disease": "Common Rust",
+    "solution": "Use resistant varieties. Apply fungicides like pyraclostrobin if infection is severe."
+  },
+  "Corn___healthy": {
+    "plant": "Corn",
+    "disease": "Healthy",
+    "solution": "No action needed. Keep monitoring for any changes."
+  },
+  "Corn___Northern_Leaf_Blight": {
+    "plant": "Corn",
+    "disease": "Northern Leaf Blight",
+    "solution": "Use resistant hybrids and apply fungicides such as propiconazole at early symptoms."
+  },
+  "Grape___Black_rot": {
+    "plant": "Grape",
+    "disease": "Black Rot",
+    "solution": "Prune infected vines. Use fungicides such as myclobutanil or mancozeb during growing season."
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "plant": "Grape",
+    "disease": "Esca (Black Measles)",
+    "solution": "Remove infected wood and apply trunk protectants. Avoid pruning in wet conditions."
+  },
+  "Grape___healthy": {
+    "plant": "Grape",
+    "disease": "Healthy",
+    "solution": "No treatment needed. Your plant looks great!"
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "plant": "Grape",
+    "disease": "Leaf Blight (Isariopsis Leaf Spot)",
+    "solution": "Remove infected leaves. Apply copper-based fungicides or myclobutanil during early season."
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "plant": "Orange",
+    "disease": "Citrus Greening (HLB)",
+    "solution": "No cure exists. Remove and destroy infected trees to prevent spreading. Control psyllid insects with insecticides."
+  },
+  "Peach___Bacterial_spot": {
+    "plant": "Peach",
+    "disease": "Bacterial Spot",
+    "solution": "Use copper-based bactericides. Choose resistant cultivars and prune for better airflow."
+  },
+  "Peach___healthy": {
+    "plant": "Peach",
+    "disease": "Healthy",
+    "solution": "No action needed. Keep observing the plant for early signs of disease."
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "plant": "Bell Pepper",
+    "disease": "Bacterial Spot",
+    "solution": "Apply copper sprays. Avoid overhead watering and rotate crops to prevent recurrence."
+  },
+  "Pepper,_bell___healthy": {
+    "plant": "Bell Pepper",
+    "disease": "Healthy",
+    "solution": "No treatment needed. Maintain regular care and monitoring."
+  },
+  "Potato___Early_blight": {
+    "plant": "Potato",
+    "disease": "Early Blight",
+    "solution": "Apply fungicides such as chlorothalonil or mancozeb. Rotate crops yearly and remove infected debris."
+  },
+  "Potato___healthy": {
+    "plant": "Potato",
+    "disease": "Healthy",
+    "solution": "No action required. Plant is healthy!"
+  }
+}

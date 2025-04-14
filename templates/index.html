@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crop Disease Prediction</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">🌿KrishiBot</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#upload-section">Upload</a></li>
+          <li><a href="{{ url_for('team') }}">Team</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Detect Crop Diseases Instantly</h1>
+        <p style="color: aliceblue">
+          Upload a leaf image and get instant predictions.
+        </p>
+        <a href="#upload-section" class="btn">Get Started</a>
+      </div>
+    </section>
+
+    <section id="upload-section">
+      <h2>Upload Leaf Image for Disease Detection</h2>
+      <div class="upload-container">
+        <input type="file" id="file-input" accept="image/*" hidden />
+        <div id="drop-area">
+          <p>
+            Drag & Drop an image here or <span id="browse-btn">Browse</span>
+          </p>
+        </div>
+        <p id="file-name"></p>
+        <button id="upload-btn">Upload</button>
+        <div id="loader" class="loader hidden"></div>
+      </div>
+      <div id="preview-container">
+        <h3>Original Image</h3>
+        <div id="preview"></div>
+      </div>
+    </section>
+
+    <section id="prediction-result" class="hidden">
+      <h2>Prediction Result</h2>
+      <div class="result-card">
+        <div class="result-details">
+          <p><strong>Plant:</strong> <span id="plant-name">N/A</span></p>
+          <p><strong>Disease:</strong> <span id="disease-name">N/A</span></p>
+          <p><strong>Solution:</strong></p>
+          <p id="solution-text">N/A</p>
+        </div>
+        <div class="confidence-chart">
+          <canvas id="confidenceChart"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About This Project</h2>
+      <p>
+        This tool helps farmers and researchers detect plant diseases using AI
+        and OpenCV.
+      </p>
+    </section>
+
+    <script async src="https://docs.opencv.org/master/opencv.js"></script>
+  </body>
+</html>
