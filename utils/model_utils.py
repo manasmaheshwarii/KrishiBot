@@ -13,9 +13,23 @@ import json
 DATASET_PATH = os.path.join("data", "Plant_leave_diseases_dataset_without_augmentation")
 SOLUTIONS_PATH = os.path.join(os.path.dirname(__file__), "solutions.json")
 
-# Get class names from the dataset folder
+# # Get class names from the dataset folder
+# def get_class_names():
+#     return sorted(os.listdir(DATASET_PATH))
+
 def get_class_names():
-    return sorted(os.listdir(DATASET_PATH))
+    return sorted([
+        'Apple___Apple_scab',
+        'Apple___Black_rot',
+        'Apple___Cedar_apple_rust',
+        'Apple___healthy',
+        'Corn___Cercospora_leaf_spot Gray_leaf_spot',
+        'Corn___Common_rust',
+        'Corn___healthy',
+        'Corn___Northern_Leaf_Blight',
+        # Add all the other class labels used during training
+    ])
+
 
 # Load the trained model
 def load_trained_model(model_path):
