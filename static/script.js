@@ -90,13 +90,13 @@ document.addEventListener("DOMContentLoaded", function () {
       new Chart(ctx, {
         type: "doughnut",
         data: {
-          labels: ["Confidence", "Remaining"],
+          labels: ["Confidence", "Unsure"],
           datasets: [
             {
-              label: "Confidence",
+              label: "",
               data: [
-                parseFloat(data.confidence),
                 100 - parseFloat(data.confidence),
+                parseFloat(data.confidence),
               ],
               backgroundColor: ["#1e5128", "#d3e8d1"],
               borderWidth: 1,

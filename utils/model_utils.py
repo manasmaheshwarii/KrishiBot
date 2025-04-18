@@ -7,8 +7,10 @@ from tensorflow.keras.models import load_model
 import os
 import json
 
-# Path to dataset
-DATASET_PATH = r"C:\Users\manas\Documents\PlantVillage\Plant_leave_diseases_dataset_without_augmentation"
+# # Path to dataset
+# DATASET_PATH = r"C:\Users\manas\Documents\PlantVillage\Plant_leave_diseases_dataset_without_augmentation"
+# Use relative path instead of absolute Windows path
+DATASET_PATH = os.path.join("data", "Plant_leave_diseases_dataset_without_augmentation")
 SOLUTIONS_PATH = os.path.join(os.path.dirname(__file__), "solutions.json")
 
 # Get class names from the dataset folder
